@@ -21,4 +21,4 @@ void loop() {
   digitalWrite(led, LOW);   //turn the LED off by making the voltage LOW
   digitalWrite(led2, LOW);  //turn the LED off by making the voltage LOW
   digitalWrite(led3, HIGH); //turn the LED HIGH by making the voltage HIGH
-  delay(10000);                     // wait for ten sencods
+  delay(10000);                     // wait for ten sencods 
