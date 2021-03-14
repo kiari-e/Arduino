@@ -1,0 +1,24 @@
+int led=2;
+int led2=5;
+int led3=7;
+void setup() {
+  // put your setup code here, to run once:
+ pinMode(led, OUTPUT);
+ pinMode(led2,OUTPUT);
+ pinMode(led3,OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+ digitalWrite(led, HIGH);  // turn the LED on (HIGH is the voltage level)
+  digitalWrite(led2, LOW); // turn the LED off by making the voltage LOW
+  digitalWrite(led3, LOW); // turn the LED off by making the voltage LOW
+  delay(10000);                       // wait for ten seconds
+  digitalWrite(led, LOW);   // turn the LED off by making the voltage LOW
+  digitalWrite(led2, HIGH); // turn the LED ON by making the voltage HIGH
+  digitalWrite(led3, LOW);  // turn the LED off by making the voltage LOW
+  delay(3000);                       // wait for three seconds
+  digitalWrite(led, LOW);   //turn the LED off by making the voltage LOW
+  digitalWrite(led2, LOW);  //turn the LED off by making the voltage LOW
+  digitalWrite(led3, HIGH); //turn the LED HIGH by making the voltage HIGH
+  delay(10000);                     // wait for ten sencods
